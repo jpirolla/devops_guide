@@ -345,19 +345,6 @@ resource "local_file" "arquivo1" {
 # ... e assim por diante
 ```
 
----
-
-
----
-
-## Dica importante: sempre leia a documentação
-
-Cada `resource` tem um conjunto próprio de argumentos, alguns obrigatórios e outros opcionais. Por isso, é essencial **consultar o Terraform Registry** para garantir o uso correto dos recursos.
-
-A estrutura genérica pode parecer simples, mas o comportamento real depende totalmente dos parâmetros específicos e das regras do provedor utilizado.
-
----
-
 ## Exemplo real de bloco `resource` com `local_file`
 
 ```hcl
